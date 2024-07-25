@@ -4,120 +4,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Subhanshu - Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
     <style>
         body {
             font-family: 'Liberation Mono', 'Courier New', monospace;
-            background-color: #2B2B2B;
-            color: #E0E0E0;
+            background-color: #d4d4d4;
+            color: #333333;
             line-height: 1.6;
-            padding: 20px;
-            max-width: 800px;
-            margin: 0 auto;
         }
-        header {
-            border-bottom: 1px solid #A8B3B3;
-            padding-bottom: 20px;
-            margin-bottom: 30px;
+        .container {
+            background-color: #f0f0f0;
+            border: 1px solid #b7b7b7;
         }
-        h1, h2 {
-            color: #A8B3B3;
+        h1, h2, h3 {
+            color: #2c3e50;
         }
         a {
-            color: #5F9EA0;
+            color: #27ae60;
             text-decoration: none;
         }
         a:hover {
             text-decoration: underline;
         }
         .section {
-            margin-bottom: 40px;
+            background-color: #ffffff;
+            border: 1px solid #b7b7b7;
         }
         .project {
-            border: 1px solid #A8B3B3;
-            padding: 15px;
-            margin-bottom: 20px;
-            background-color: #333333;
+            background-color: #e8e8e8;
         }
-        ul {
-            list-style-type: none;
-            padding-left: 0;
-        }
-        li::before {
-            content: "• ";
-            color: #5F9EA0;
-        }
-        footer {
-            margin-top: 40px;
-            font-size: 0.9em;
-            text-align: center;
-            color: #A8B3B3;
+        .greentext {
+            color: #789922;
         }
     </style>
 </head>
-<body>
-    <header>
-        <h1>Subhanshu Prasad</h1>
-        <p>Computer Engineering Student | FOSS Enthusiast | GNU/Linux Advocate</p>
-    </header>
-
-    <div class="section">
-        <h2>About Me</h2>
-        <p>I am a 4th-year Computer Engineering student at Delhi Technological University, passionate about Free and Open Source Software (FOSS) and the principles of software freedom. I believe in the power of collaborative development and the importance of user rights in the digital age.</p>
-    </div>
-
-    <div class="section">
-        <h2>Experience</h2>
-        <div class="project">
-            <h3>Backend Developer Intern - DG Market</h3>
-            <p>Duration: 2 months</p>
-            <ul>
-                <li>Reduced website loadtimes by 30%</li>
-                <li>Contributed to backend development using open-source technologies</li>
-                <li>Implemented RESTful APIs adhering to FOSS best practices</li>
-                <li>Collaborated with team using Git for version control</li>
-                <li>Worked extensively with Springboot and Java</li>
-
+<body class="p-4">
+    <div class="container max-w-3xl mx-auto p-6 rounded-lg shadow-lg">
+        <header class="mb-8 pb-4 border-b border-gray-300">
+            <h1 class="text-3xl font-bold mb-2">Subhanshu Prasad</h1>
+            <p class="text-xl">Computer Engineering Student | FOSS Enthusiast | GNU/Linux Advocate</p>
+        </header>
+        
+        <div class="section mb-8 p-4 rounded">
+            <h2 class="text-2xl font-bold mb-4">About Me</h2>
+            <p>I am a 4th-year Computer Engineering student at Delhi Technological University, passionate about Free and Open Source Software (FOSS) and the principles of software freedom. I believe in the power of collaborative development and the importance of user rights in the digital age.</p>
+        </div>
+        
+        <div class="section mb-8 p-4 rounded">
+            <h2 class="text-2xl font-bold mb-4">Experience</h2>
+            <div class="project p-4 rounded">
+                <h3 class="text-xl font-bold">Backend Developer Intern - DG Market</h3>
+                <p class="mb-2">Duration: 2 months</p>
+                <ul class="list-disc pl-5">
+                    <li>Reduced website loadtimes by 30%</li>
+                    <li>Contributed to backend development using open-source technologies</li>
+                    <li>Implemented RESTful APIs adhering to FOSS best practices</li>
+                    <li>Collaborated with team using Git for version control</li>
+                    <li>Worked extensively with Springboot and Java</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="section mb-8 p-4 rounded">
+            <h2 class="text-2xl font-bold mb-4">Skills</h2>
+            <ul class="list-disc pl-5">
+                <li>Java</li>
+                <li>Springboot</li>
+                <li>GNU/Linux</li>
+                <li>Git</li>
+                <li>C++</li>
+                <li>HTML/CSS</li>
+                <li>SQL</li>
             </ul>
         </div>
-    </div>
-
-    <div class="section">
-        <h2>Skills</h2>
-        <ul>
-            <li>Java</li>
-            <li>Springboot</li>
-            <li>GNU/Linux</li>
-            <li>Git</li>
-            <li>C++</li>
-            <li>HTML/CSS</li>
-            <li>SQL</li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>Projects</h2>
-      
-        <div class="project">
-            <h3>Ecommerce Backend</h3>
-            <p>Created a backend for an ecommerce website</p>
-            <ul>
-                <li>Technologies: Sping boot, Java, MySQL</li>
-                <li>GitHub: <a href="https://github.com/subhanshu1111/ecommerce-backend-springboot/">Ecommerce Backend</a></li>
+        
+        <div class="section mb-8 p-4 rounded">
+            <h2 class="text-2xl font-bold mb-4">Projects</h2>
+            <div class="project p-4 rounded">
+                <h3 class="text-xl font-bold">Ecommerce Backend</h3>
+                <p class="mb-2">Created a backend for an ecommerce website</p>
+                <ul class="list-disc pl-5">
+                    <li>Technologies: Spring boot, Java, MySQL</li>
+                    <li>GitHub: <a href="https://github.com/subhanshu1111/ecommerce-backend-springboot/" class="text-blue-600 hover:underline">Ecommerce Backend</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="section mb-8 p-4 rounded">
+            <h2 class="text-2xl font-bold mb-4">Contact Information</h2>
+            <ul class="list-disc pl-5">
+                <li>Email: subhanshuprasad2002@gmail.com</li>
+                <li>GitHub: <a href="https://github.com/subhanshu1111" class="text-blue-600 hover:underline">https://github.com/subhanshu1111</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/subhanshu-prasad-2a40b7203/" class="text-blue-600 hover:underline">Subhanshu Prasad</a></li>
             </ul>
         </div>
+        
+        <div class="section mb-8 p-4 rounded">
+            <h2 class="text-2xl font-bold mb-4">Resume</h2>
+            <p>My resume: <a href="https://drive.google.com/file/d/15HZ5D_zkjRq0rlbIrVup7fPc9SkYlegE/view?usp=sharing" download class="text-blue-600 hover:underline">Subhanshu_Prasad_Resume.pdf</a></p>
+        </div>
+        
+        <footer class="text-center text-gray-600 mt-8">
+            <p>This website is built with respect for software freedom principles.</p>
+        </footer>
     </div>
-
-    <div class="section">
-        <h2>Contact Information</h2>
-        <ul>
-            <li>Email: subhanshuprasad2002@gmail.com</li>
-            <li>GitHub: <a href="https://github.com/subhanshu1111">https://github.com/subhanshu1111</a></li>
-            <li>LinkedIn: <a href="https://www.linkedin.com/in/subhanshu-prasad-2a40b7203/">Subhanshu Prasad</a></li>
-        </ul>
-    </div>
-
-    <footer>
-        <p>This website is built with respect for software freedom principles.</p>
-    </footer>
 </body>
 </html>
