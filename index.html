@@ -1,140 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Subhanshu - Portfolio</title>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet"/>
-  <style>
-    body {
-      font-family: 'Liberation Mono', 'Courier New', monospace;
-      background-color: #d4d4d4;
-      color: #333333;
-      line-height: 1.6;
-    }
-    .container {
-      background-color: #f0f0f0;
-      border: 1px solid #b7b7b7;
-    }
-    h1, h2, h3 {
-      color: #2c3e50;
-    }
-    a {
-      color: #27ae60;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .section {
-      background-color: #ffffff;
-      border: 1px solid #b7b7b7;
-    }
-    .project {
-      background-color: #e8e8e8;
-    }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subhanshu - Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Liberation Mono', 'Courier New', monospace;
+            background-color: #1e1e2e;
+            color: #cdd6f4;
+            line-height: 1.6;
+        }
+
+        .container {
+            background-color: #252535;
+            border: none;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #cba6f7;
+        }
+
+        a {
+            color: #89b4fa;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .section {
+            background-color: #313244;
+            border: none;
+        }
+
+        .project {
+            background-color: #45475a;
+        }
+    </style>
 </head>
+
 <body class="p-4">
-  <div class="container max-w-3xl mx-auto p-6 rounded-lg shadow-lg">
-    <header class="mb-8 pb-4 border-b border-gray-300">
-      <h1 class="text-3xl font-bold mb-2">Subhanshu Prasad</h1>
-      <p class="text-xl">Computer Engineering Student | FOSS Enthusiast | GNU/Linux Advocate</p>
-    </header>
+    <div class="container max-w-3xl mx-auto p-6 rounded-lg shadow-lg">
+        <header class="mb-8 pb-4 border-b border-gray-600">
+            <h1 class="text-3xl font-bold mb-2">Subhanshu Prasad</h1>
+            <p class="text-xl">Junior Data Engineer | FOSS Enthusiast | GNU/Linux Advocate</p>
+        </header>
 
-    <div class="section mb-8 p-4 rounded">
-      <h2 class="text-2xl font-bold mb-4">About Me</h2>
-      <p>I am a 4th-year Computer Engineering student at Delhi Technological University. I am passionate about Free and Open Source Software (FOSS), backend systems, distributed architecture, and digital rights.</p>
+        <div class="section mb-8 p-4 rounded">
+            <h2 class="text-2xl font-bold mb-4">About Me</h2>
+            <p>I am a Junior Data Engineer. I am passionate about
+                Free and Open Source Software (FOSS), backend systems, distributed architecture, and digital rights.</p>
+        </div>
+
+        <div class="section mb-8 p-4 rounded">
+            <h2 class="text-2xl font-bold mb-4">Experience</h2>
+            <div class="project p-4 rounded">
+                <h3 class="text-xl font-bold">Software Developer Intern - DG Market International</h3>
+                <p class="mb-2">June 2024 – July 2024</p>
+                <ul class="list-disc pl-5">
+                    <li>Designed and implemented scalable backend systems using Spring Boot</li>
+                    <li>Optimized MySQL persistence for faster query performance</li>
+                    <li>Collaborated with team members using Git and Agile principles</li>
+                    <li><strong>Tech Stack:</strong> Java, Spring Boot, MySQL, REST APIs</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section mb-8 p-4 rounded">
+            <h2 class="text-2xl font-bold mb-4">Projects</h2>
+
+            <div class="project p-4 rounded mb-4">
+                <h3 class="text-xl font-bold">tws-syntax (VS Code Extension)</h3>
+                <ul class="list-disc pl-5">
+                    <li>Provides syntax highlighting and keyword completion</li>
+                    <li>Features a selection length indicator for improved coding efficiency</li>
+                    <li><strong>Links:</strong> <a
+                            href="https://marketplace.visualstudio.com/items?itemName=subhanshu.tws-syntax"
+                            target="_blank">Marketplace</a></li>
+                </ul>
+            </div>
+
+            <div class="project p-4 rounded mb-4">
+                <h3 class="text-xl font-bold">Imageboard Website</h3>
+                <ul class="list-disc pl-5">
+                    <li>Reddit like platform with threads, posts, and replies</li>
+                    <li>RESTful backend with MVC structure</li>
+                    <li><strong>Tech Stack:</strong> Java, Spring Boot, MySQL</li>
+                </ul>
+            </div>
+
+            <div class="project p-4 rounded mb-4">
+                <h3 class="text-xl font-bold">Ecommerce Backend System</h3>
+                <ul class="list-disc pl-5">
+                    <li>API for browsing products, handling cart and orders</li>
+                    <li>Secured endpoints and clean architecture</li>
+                    <li><strong>GitHub:</strong> <a href="https://github.com/subhanshu1111/ecommerce-backend-springboot"
+                            target="_blank">Ecommerce Backend</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section mb-8 p-4 rounded">
+            <h2 class="text-2xl font-bold mb-4">Research Publication</h2>
+            <p><strong>ChainID Refuge:</strong> Blockchain-based Refugee Identity Verification System</p>
+            <ul class="list-disc pl-5">
+                <li>Presented at NetCrypt 2025, Jawaharlal Nehru University</li>
+                <li>Proposed decentralized refugee ID system using blockchain</li>
+                <li>Focused on data integrity, authorized access, and transparency</li>
+                <li><strong>Link:</strong> <a href="https://ieeexplore.ieee.org/document/11102649/" target="_blank">IEEE
+                        Research Paper</a></li>
+            </ul>
+        </div>
+
+        <div class="section mb-8 p-4 rounded">
+            <h2 class="text-2xl font-bold mb-4">Skills</h2>
+            <ul class="list-disc pl-5">
+                <li><strong>Languages:</strong> Java, C/C++, SQL, JavaScript, HTML/CSS</li>
+                <li><strong>Frameworks:</strong> Spring Boot, Spring MVC</li>
+                <li><strong>Tools:</strong> Git, VS Code, IntelliJ, Visual Studio</li>
+                <li><strong>Soft Skills:</strong> Problem Solving, Analytical Thinking, Teamwork, Leadership</li>
+            </ul>
+        </div>
+
+        <div class="section mb-8 p-4 rounded">
+            <h2 class="text-2xl font-bold mb-4">Contact Information</h2>
+            <ul class="list-disc pl-5">
+                <li>Email: subhanshuprasad2002@gmail.com</li>
+                <li>Phone: +91-7042980487</li>
+                <li>GitHub: <a href="https://github.com/subhanshu1111"
+                        class="text-blue-600 hover:underline">subhanshu1111</a></li>
+                <li>LinkedIn: <a href="https://linkedin.com/in/subhanshu-prasad-2a40b7203"
+                        class="text-blue-600 hover:underline">Subhanshu Prasad</a></li>
+                <li>Website: <a href="https://subhanshu1111.github.io/"
+                        class="text-blue-600 hover:underline">subhanshu1111.github.io</a></li>
+            </ul>
+        </div>
+
+        <footer class="text-center text-gray-400 mt-8">
+            <p>This website is built with respect for software freedom principles.</p>
+        </footer>
     </div>
-
-    <div class="section mb-8 p-4 rounded">
-      <h2 class="text-2xl font-bold mb-4">Experience</h2>
-      <div class="project p-4 rounded">
-        <h3 class="text-xl font-bold">Software Developer Intern - DG Market International</h3>
-        <p class="mb-2">June 2024 – July 2024</p>
-        <ul class="list-disc pl-5">
-          <li>Designed and implemented scalable backend systems using Spring Boot</li>
-          <li>Optimized MySQL persistence for faster query performance</li>
-          <li>Collaborated with team members using Git and Agile principles</li>
-          <li><strong>Tech Stack:</strong> Java, Spring Boot, MySQL, REST APIs</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="section mb-8 p-4 rounded">
-      <h2 class="text-2xl font-bold mb-4">Projects</h2>
-
-      <div class="project p-4 rounded mb-4">
-        <h3 class="text-xl font-bold">Ticket Booking Microservices System</h3>
-        <ul class="list-disc pl-5">
-          <li>Built Booking, Order, and Inventory microservices using Spring Boot</li>
-          <li>Kafka-based asynchronous communication between services</li>
-          <li>Secured system with Keycloak and routed via API Gateway</li>
-          <li><strong>Tech Stack:</strong> Spring Boot, Kafka, Flyway, MySQL, Keycloak</li>
-        </ul>
-      </div>
-
-      <div class="project p-4 rounded mb-4">
-        <h3 class="text-xl font-bold">Imageboard Website</h3>
-        <ul class="list-disc pl-5">
-          <li>Reddit/4chan-like platform with threads, posts, and replies</li>
-          <li>RESTful backend with MVC structure</li>
-          <li><strong>Tech Stack:</strong> Java, Spring Boot, MySQL</li>
-        </ul>
-      </div>
-
-      <div class="project p-4 rounded mb-4">
-        <h3 class="text-xl font-bold">Ecommerce Backend System</h3>
-        <ul class="list-disc pl-5">
-          <li>API for browsing products, handling cart and orders</li>
-          <li>Secured endpoints and clean architecture</li>
-          <li><strong>GitHub:</strong> <a href="https://github.com/subhanshu1111/ecommerce-backend-springboot" target="_blank">Ecommerce Backend</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="section mb-8 p-4 rounded">
-      <h2 class="text-2xl font-bold mb-4">Research Publication</h2>
-      <p><strong>ChainID Refuge:</strong> Blockchain-based Refugee Identity Verification System</p>
-      <ul class="list-disc pl-5">
-        <li>Presented at NetCrypt 2025, Jawaharlal Nehru University</li>
-        <li>Proposed decentralized refugee ID system using blockchain</li>
-        <li>Focused on data integrity, authorized access, and transparency</li>
-      </ul>
-    </div>
-
-    <div class="section mb-8 p-4 rounded">
-      <h2 class="text-2xl font-bold mb-4">Leadership & Volunteering</h2>
-      <ul class="list-disc pl-5">
-        <li><strong>Co-Head</strong>, DTU International Students’ Society (2022–2023)</li>
-        <li><strong>Volunteer</strong>, Shubhaksika Educational Society (2023)</li>
-      </ul>
-    </div>
-
-    <div class="section mb-8 p-4 rounded">
-      <h2 class="text-2xl font-bold mb-4">Skills</h2>
-      <ul class="list-disc pl-5">
-        <li><strong>Languages:</strong> Java, C/C++, SQL, JavaScript, HTML/CSS</li>
-        <li><strong>Frameworks:</strong> Spring Boot, Spring MVC</li>
-        <li><strong>Tools:</strong> Git, VS Code, IntelliJ, Visual Studio</li>
-        <li><strong>Soft Skills:</strong> Problem Solving, Analytical Thinking, Teamwork, Leadership</li>
-      </ul>
-    </div>
-
-    <div class="section mb-8 p-4 rounded">
-      <h2 class="text-2xl font-bold mb-4">Contact Information</h2>
-      <ul class="list-disc pl-5">
-        <li>Email: subhanshuprasad2002@gmail.com</li>
-        <li>Phone: +91-7042875911</li>
-        <li>GitHub: <a href="https://github.com/subhanshu1111" class="text-blue-600 hover:underline">subhanshu1111</a></li>
-        <li>LinkedIn: <a href="https://linkedin.com/in/subhanshu-prasad-2a40b7203" class="text-blue-600 hover:underline">Subhanshu Prasad</a></li>
-        <li>Website: <a href="https://subhanshu1111.github.io/" class="text-blue-600 hover:underline">subhanshu1111.github.io</a></li>
-      </ul>
-    </div>
-
-    <footer class="text-center text-gray-600 mt-8">
-      <p>This website is built with respect for software freedom principles.</p>
-    </footer>
-  </div>
 </body>
+
 </html>
